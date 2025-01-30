@@ -49,4 +49,8 @@ public class TodoItemTask {
                 ", assignee=" + (assignee != null ? assignee.getName() : "Unassigned") +
                 '}';
     }
+
+    public String isCompleted() {
+        return assigned ? "Completed" : "Unassigned";
+    }
 }
