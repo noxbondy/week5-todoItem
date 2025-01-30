@@ -16,12 +16,7 @@ public class Person {
         this.email = email;
     }
 
-    public Person(int id, String johnDoe, String mail) {
-        this.ID = id;
-        this.firstName = johnDoe;
-        this.lastName = mail;
-        this.email = mail;
-    }
+
 
     public int getID() {
         return ID;
@@ -30,21 +25,26 @@ public class Person {
         this.ID = ID;
     }
     public String getFirstName() {
+
         return firstName;
     }
     public void setFirstName(String firstName) {
+
         this.firstName = firstName;
     }
     public String getLastName() {
+
         return lastName;
     }
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
     public String getEmail() {
         return email;
     }
     public void setEmail(String email) {
+
         this.email = email;
     }
     public String getSummary() {

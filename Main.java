@@ -12,9 +12,10 @@ public class Main {
         System.out.println("Description: " + item1.getDescription());
 
 
-        TodoItem todoItem = new TodoItem(20, "Complete Java Project",
+
+        TodoItem todoItem = new TodoItem(20, "Complete grocery purchase",
                 "Work on the Java Todo App",
-                LocalDate.of(2025, 1, 30), false);
+                LocalDate.of(2025, 01, 30), false);
 
         TodoItemTask todoItemTask = new TodoItemTask(1, todoItem, person);
         System.out.println("Task ID: " + todoItemTask.getId());
